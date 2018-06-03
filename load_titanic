@@ -1,0 +1,6 @@
+LOAD DATA INFILE '/home/pjanis/git/testing/titanic.csb' 
+INTO TABLE test.titanic 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
