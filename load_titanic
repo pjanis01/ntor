@@ -1,4 +1,4 @@
-LOAD DATA INFILE '/home/pjanis/git/testing/titanic.csb' 
+LOAD DATA INFILE '/home/git/testing/titanic.csb' 
 INTO TABLE test.titanic 
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
